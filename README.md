@@ -41,6 +41,8 @@ The dashboard allows users to identify:
 - Source: TMDB Movie Dataset
 - Movies analysed: 3,229
 
+The repository includes both the original dataset and the cleaned dataset used for the analysis.
+
 ---
 
 ## Data Cleaning
@@ -77,6 +79,8 @@ The dashboard contains:
 - Budget vs Profit Scatter Plot
 
 - Business Insights Summary
+
+The dashboard screenshot is displayed at the top of this README, and the interactive Power BI (.pbix) file is included in the dashboard folder.
 
 ---
 
@@ -126,12 +130,15 @@ Potential future enhancements include:
 movie-profitability-analysis/
 │
 ├── dashboard/
+│   ├── Movie Profitability Project.pbix
 │   └── movie-profitability-dashboard.jpeg
 │
 ├── data/
+│   ├── movie_dataset.csv
+│   └── movie_profitability_cleaned.csv
 │
 ├── notebooks/
-│
+│   └── movie_profitability_analysis.ipynb
 │
 └── README.md
 ```
